@@ -7,7 +7,7 @@ const MenuItem = (props) => {
     return ( 
     <>
     
-    <Card sx = {{ maxWidth: 345}}>
+    <Card sx = {{ maxWidth: 345, position: 'relative'}}>
         <CardActionArea>
             {item.image && 
             <CardMedia
@@ -31,6 +31,8 @@ const MenuItem = (props) => {
             </Button>
       </CardActions>
     </Card>
+
+    <br />
     </>
     );
 }

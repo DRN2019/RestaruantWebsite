@@ -59,9 +59,13 @@ const Menu = () => {
     <>
     <div className="container">
         <MenuSection className="appetizers" title="Appetizers" menuItems={appetizers} />
+        <br />
         <MenuSection className="entrees" title="Entrees" menuItems={entrees} />
+        <br />
         <MenuSection className="drinks" title="Drinks" menuItems={drinks} />
+        <br />
         <MenuSection className="desserts" title="Desserts" menuItems={desserts} />
+        <br />
 
     </div>
     </> );
